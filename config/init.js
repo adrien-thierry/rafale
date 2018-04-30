@@ -1,0 +1,1 @@
+function Init(){try{fs.mkdirSync(CONFIGPATH)}catch(r){}try{var t=!1,i="";i=fs.readFileSync(CONFIGFILE),i=JSON.parse(i)}catch(r){t=!0}if(!i||t){var a={url:"https://api.rafalejs.com/"};fs.writeFileSync(CONFIGFILE,JSON.stringify(a))}}module.exports=Init;

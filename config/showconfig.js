@@ -1,0 +1,1 @@
+function showConfig(o){console.log(),o?console.log(o):console.log("[*] Current config :"),console.log("url   : "+CONFIG.url),console.log()}module.exports=showConfig;

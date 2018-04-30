@@ -1,0 +1,1 @@
+function reinitConfig(){try{var i={url:"https://api.rafalejs.com/"};fs.writeFileSync(CONFIGFILE,JSON.stringify(i)),readConfig(),showConfig("[*] Config reinitialized :")}catch(n){console.log(n)}}module.exports=reinitConfig;

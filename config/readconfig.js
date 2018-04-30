@@ -1,0 +1,1 @@
+function readConfig(){try{var e=fs.readFileSync(CONFIGFILE);CONFIG=JSON.parse(e)}catch(r){Init(),readConfig()}}module.exports=readConfig;

@@ -1,0 +1,1 @@
+function Daemon(){setInterval(function(){},6e4)}module.exports=Daemon;

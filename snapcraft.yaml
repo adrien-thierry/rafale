@@ -1,0 +1,29 @@
+name: rafale
+version: '0.0.2'
+summary: Deploy every services, everywhere, in just a few seconds
+description: |
+  Rafale lets you deploy FortressJS services everywhere
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+apps:
+
+  rafale-service:
+    command: rafale --daemon
+    daemon: simple
+    restart-condition: always
+    plugs: [network-bind, home, network]
+
+  rafale:
+    command: rafale
+    plugs: [network-bind, home, network]
+
+  rfl:
+    command: rfl
+    plugs: [network-bind, home, network]
+
+parts:
+  webserver:
+    source: .
+    plugin: nodejs

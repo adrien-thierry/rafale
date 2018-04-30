@@ -1,0 +1,56 @@
+{
+  "name": "rafale",
+  "version": "0.0.2",
+  "description": "Deploy every services, everywhere, in just a few seconds",
+  "main": "rafale.js",
+  "bin": {
+    "rafale": "./rafale.js",
+    "rfl": "./rafale.js"
+  },
+  "scripts": {
+
+  },
+  "pkg":
+  {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seraum/rafale.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "framework",
+    "web",
+    "net",
+    "http",
+    "https",
+    "fast",
+    "secure",
+    "simple",
+    "speed",
+    "io",
+    "iot",
+    "rest",
+    "restful",
+    "socket",
+    "socket.io",
+    "fortressjs",
+    "services",
+    "cloud",
+    "security"
+  ],
+  "author": "Adrien THIERRY <adrien.thierryfr@gmail.com> (https://seraum.com)",
+  "license": "",
+  "licenses": [
+  {
+    "type": "Commercial",
+    "url": "https://github.com/seraum/rafale/blob/master/LICENSE"
+  }
+],
+  "bugs": {
+    "url": "https://github.com/seraum/rafale/issues"
+  },
+  "homepage": "https://github.com/seraum/rafale#readme"
+}
