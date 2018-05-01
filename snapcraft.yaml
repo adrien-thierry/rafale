@@ -1,5 +1,5 @@
 name: rafale
-version: '0.0.3'
+version: '0.0.4'
 summary: Deploy every services, everywhere, in just a few seconds
 description: |
   Rafale lets you deploy FortressJS services everywhere
