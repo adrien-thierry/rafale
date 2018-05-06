@@ -1,6 +1,6 @@
 {
   "name": "rafale",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Deploy every services, everywhere, in just a few seconds",
   "main": "rafale.js",
   "bin": {
